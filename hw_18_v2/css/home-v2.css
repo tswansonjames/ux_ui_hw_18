@@ -1,0 +1,644 @@
+/* screen - home-v2 */
+
+.home-v2 {
+  background-color: rgba(255,255,255,1.0);
+  height: 3200px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1440px;
+}
+.home-v2 .about-C61RwL {
+  background-color: transparent;
+  height: 633px;
+  left: 45px;
+  position: absolute;
+  top: 64px;
+  width: 1360px;
+}
+.home-v2 .about-me-xjfc2X {
+  background-color: transparent;
+  color: var(--gray);
+  font-family: 'Playfair Display', Helvetica;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 700;
+  height: auto;
+  left: 65px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 113px;
+  width: 193px;
+}
+.home-v2 .component-COif9V {
+  background-color: transparent;
+  height: 367px;
+  left: 936px;
+  position: absolute;
+  top: 134px;
+  width: 370px;
+}
+.home-v2 .component-CYjuiq {
+  background-color: transparent;
+  height: 367px;
+  left: 536px;
+  position: absolute;
+  top: 134px;
+  width: 370px;
+}
+.home-v2 .component-l9YAls {
+  background-color: transparent;
+  height: 367px;
+  left: 136px;
+  position: absolute;
+  top: 134px;
+  width: 370px;
+}
+.home-v2 .contact-me-i142191792-qPPd6S {
+  background-color: transparent;
+  color: var(--abbey);
+  font-family: 'Playfair Display', Helvetica;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  height: auto;
+  left: 145px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 24px;
+  width: auto;
+}
+.home-v2 .ellipse-2-kY5QV8 {
+  background-color: transparent;
+  height: 100px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100px;
+}
+.home-v2 .ellipse-2-xLZyNP {
+  background-color: transparent;
+  height: 100px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100px;
+}
+.home-v2 .ellipse-3-1vvqQt {
+  background-color: transparent;
+  height: 41px;
+  left: 63px;
+  position: absolute;
+  top: 0px;
+  width: 41px;
+}
+.home-v2 .ellipse-3-C61RwL {
+  background-color: transparent;
+  height: 306px;
+  left: 981px;
+  position: absolute;
+  top: 264px;
+  width: 224px;
+}
+.home-v2 .ellipse-3-jUkhar {
+  background-color: transparent;
+  height: 41px;
+  left: 190px;
+  position: absolute;
+  top: 0px;
+  width: 41px;
+}
+.home-v2 .ellipse-3-qJOyZt {
+  background-color: transparent;
+  height: 41px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 41px;
+}
+.home-v2 .ellipse-3-trRdlN {
+  background-color: transparent;
+  height: 41px;
+  left: 127px;
+  position: absolute;
+  top: 0px;
+  width: 41px;
+}
+.home-v2 .email-i142191796-qPPd6S {
+  background-color: transparent;
+  height: auto;
+  left: 983px;
+  letter-spacing: 3.50px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 41px;
+  width: 112px;
+}
+.home-v2 .enter-your-email-i142191794-qPPd6S {
+  background-color: transparent;
+  color: var(--abbey);
+  font-family: 'Lato', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 520px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 38px;
+  width: auto;
+}
+.home-v2 .footer-C61RwL {
+  background-color: transparent;
+  height: 220px;
+  left: 136px;
+  position: absolute;
+  top: 2925px;
+  width: 1170px;
+}
+.home-v2 .footer-iPe1yZ {
+  background-color: transparent;
+  height: 41px;
+  left: 469px;
+  position: absolute;
+  top: 179px;
+  width: 231px;
+}
+.home-v2 .gov-redesign-C61RwL {
+  background-color: transparent;
+  color: rgba(0,0,0,1.0);
+  font-family: 'Playfair Display', Helvetica;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  height: auto;
+  left: 348px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 751px;
+  width: auto;
+}
+.home-v2 .image-kY5QV8 {
+  background-color: transparent;
+  height: 12px;
+  left: 109px;
+  position: absolute;
+  top: 8px;
+  width: 17px;
+}
+.home-v2 .image-xLZyNP {
+  background-color: transparent;
+  height: 12px;
+  left: 109px;
+  position: absolute;
+  top: 8px;
+  width: 17px;
+}
+.home-v2 .james-thomas-i142171784-xLZyNP {
+  background-color: transparent;
+  height: auto;
+  left: 128px;
+  letter-spacing: 3.50px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 163px;
+  width: auto;
+}
+.home-v2 .learn-more-xjfc2X {
+  background-color: transparent;
+  color: rgba(51,51,51,1.0);
+  font-family: 'Lato', Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 65px;
+  letter-spacing: 3.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 555px;
+  width: 150px;
+}
+.home-v2 .life-C61RwL {
+  background-color: transparent;
+  background-image: url(../img/life@1x.svg);
+  background-size: 100% 100%;
+  height: 599px;
+  left: 166px;
+  overflow: hidden;
+  position: absolute;
+  top: 1301px;
+  width: 323px;
+}
+.home-v2 .lorem-ipsum-dol-olor-i142111776-MRGrQZ {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 280px;
+  width: 372px;
+}
+.home-v2 .lorem-ipsum-dol-olor-i142131776-e5gixx {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 280px;
+  width: 372px;
+}
+.home-v2 .non-profit-C61RwL {
+  background-color: transparent;
+  color: rgba(10,10,10,1.0);
+  font-family: 'Playfair Display', Helvetica;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  height: auto;
+  left: 1074px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 743px;
+  width: auto;
+}
+.home-v2 .one-morning-whe-see-i142171783-xLZyNP {
+  background-color: transparent;
+  height: auto;
+  left: 128px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 19px;
+  width: 374px;
+}
+.home-v2 .quick-bio-lorem-gula-eget-dolor-xjfc2X {
+  background-color: transparent;
+  color: var(--gray);
+  font-family: 'Lato', Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 65px;
+  letter-spacing: 0.00px;
+  line-height: 24.3px;
+  position: absolute;
+  text-align: left;
+  top: 216px;
+  width: 705px;
+}
+.home-v2 .rectangle-2-xjfc2X {
+  background-color: rgba(255,255,255,1.0);
+  height: 399px;
+  left: 817px;
+  position: absolute;
+  top: 175px;
+  width: 462px;
+}
+.home-v2 .rectangle-3-MRGrQZ {
+  background-color: var(--bon-jour);
+  height: 230px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 370px;
+}
+.home-v2 .rectangle-3-e5gixx {
+  background-color: var(--bon-jour);
+  height: 230px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 370px;
+}
+.home-v2 .rectangle-3-lRlUJF {
+  background-color: var(--bon-jour);
+  height: 230px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 370px;
+}
+.home-v2 .rectangle-4-l9YAls {
+  background-color: rgba(245,245,245,1.0);
+  height: 536px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1441px;
+}
+.home-v2 .rectangle-5-qPPd6S {
+  background-color: rgba(247,247,247,1.0);
+  height: 99px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1170px;
+}
+.home-v2 .rectangle-6-Jv1AAM {
+  background-color: rgba(214,214,214,1.0);
+  height: 47px;
+  left: 950px;
+  position: absolute;
+  top: 26px;
+  width: 176px;
+}
+.home-v2 .rectangle-6-qPPd6S {
+  background-color: rgba(235,235,235,1.0);
+  height: 47px;
+  left: 505px;
+  position: absolute;
+  top: 26px;
+  width: 444px;
+}
+.home-v2 .rectangle-xjfc2X {
+  background-color: rgba(224,215,226,1.0);
+  height: 559px;
+  left: 0px;
+  position: absolute;
+  top: 74px;
+  width: 1350px;
+}
+.home-v2 .sofia-brichet-i142161784-kY5QV8 {
+  background-color: transparent;
+  height: auto;
+  left: 128px;
+  letter-spacing: 3.50px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 163px;
+  width: auto;
+}
+.home-v2 .some-company-name-i142161785-kY5QV8 {
+  background-color: transparent;
+  height: auto;
+  left: 128px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 191px;
+  width: auto;
+}
+.home-v2 .some-company-name-i142171785-xLZyNP {
+  background-color: transparent;
+  height: auto;
+  left: 128px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 191px;
+  width: auto;
+}
+.home-v2 .soul-C61RwL {
+  background-color: transparent;
+  background-image: url(../img/soul@1x.svg);
+  background-size: 100% 100%;
+  height: 756px;
+  left: 882px;
+  overflow: hidden;
+  position: absolute;
+  top: 804px;
+  width: 534px;
+}
+.home-v2 .stories-C61RwL {
+  background-color: transparent;
+  height: 536px;
+  left: 0px;
+  position: absolute;
+  top: 1928px;
+  width: 1443px;
+}
+.home-v2 .subscribe-iPe1yZ {
+  background-color: transparent;
+  height: 99px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1176px;
+}
+.home-v2 .taylor-james-xjfc2X {
+  background-color: transparent;
+  color: var(--gray);
+  font-family: 'Playfair Display', Helvetica;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  height: auto;
+  left: 968px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 517px;
+  width: 162px;
+}
+.home-v2 .taylor-rochelle-james-xjfc2X {
+  background-color: transparent;
+  color: var(--gray);
+  font-family: 'Playfair Display', Helvetica;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  height: auto;
+  left: 3px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 394px;
+}
+.home-v2 .testimonial-C61RwL {
+  background-color: transparent;
+  height: 310px;
+  left: 218px;
+  position: absolute;
+  top: 2534px;
+  width: 1072px;
+}
+.home-v2 .testimonial-FAveAx {
+  background-color: transparent;
+  height: 208px;
+  left: 570px;
+  position: absolute;
+  top: 102px;
+  width: 500px;
+}
+.home-v2 .testimonial-dJ10FO {
+  background-color: transparent;
+  height: 208px;
+  left: 0px;
+  position: absolute;
+  top: 102px;
+  width: 500px;
+}
+.home-v2 .the-languages-o-ords-i142121776-lRlUJF {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 280px;
+  width: 372px;
+}
+.home-v2 .this-is-a-testi-quis-i142161783-kY5QV8 {
+  background-color: transparent;
+  height: auto;
+  left: 128px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 19px;
+  width: 374px;
+}
+.home-v2 .travel-C61RwL {
+  background-color: transparent;
+  background-image: url(../img/travel@1x.svg);
+  background-size: 100% 100%;
+  height: 474px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 804px;
+  width: 882px;
+}
+.home-v2 .travel-app-C61RwL {
+  background-color: transparent;
+  color: rgba(14,14,14,1.0);
+  font-family: 'Playfair Display', Helvetica;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  height: auto;
+  left: 15px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 1354px;
+  width: auto;
+}
+.home-v2 .what-people-are-about-the-work-dJ10FO {
+  background-color: transparent;
+  color: rgba(189,189,189,1.0);
+  font-family: 'Playfair Display', Helvetica;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  height: auto;
+  left: 272px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: auto;
+}
+.home-v2 .wireframes-design-process-l9YAls {
+  background-color: transparent;
+  color: var(--gray);
+  font-family: 'Playfair Display', Helvetica;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  height: auto;
+  left: 527px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 59px;
+  width: auto;
+}
+.home-v2 .x10-april-2020-i142111775-MRGrQZ {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 3.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 247px;
+  width: auto;
+}
+.home-v2 .x30-march-2017-i142131775-e5gixx {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 3.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 247px;
+  width: auto;
+}
+.home-v2 .x5-april-2017-i142121775-lRlUJF {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 3.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 247px;
+  width: auto;
+}
+.home-v2 .xheader-copy-C61RwL {
+  background-color: transparent;
+  height: 26px;
+  left: 1129px;
+  position: absolute;
+  top: 64px;
+  width: 266px;
+}
+.lato-normal-abbey-12px {
+  color: var(--abbey);
+  font-family: 'Lato', Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.lato-normal-abbey-14px {
+  color: var(--abbey);
+  font-family: 'Lato', Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.lato-normal-gray-16px {
+  color: var(--gray);
+  font-family: 'Lato', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --abbey: rgba(79,79,79,1.0);
+  --bon-jour: rgba(224,224,224,1.0);
+  --gray: rgba(130,130,130,1.0);
+}
