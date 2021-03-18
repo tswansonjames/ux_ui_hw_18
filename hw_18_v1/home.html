@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Lato:400,500|Playfair+Display:400,400italic");
+
+      .component-wrapper a,
+      .screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .full-width-a {
+        width: 100%;
+      }
+
+      .full-height-a {
+        height: 100%;
+      }
+
+      .screen textarea:focus,
+      .screen input:focus {
+        outline: none;
+      }
+
+      .screen *,
+      .component-wrapper * {
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .container-center-vertical,
+      .container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .container-center-vertical > *,
+      .container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .component-wrapper,
+      .screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --z-index: -1;
+      }
+
+      .auto-animated .container-center-vertical,
+      .auto-animated .container-center-horizontal {
+        opacity: 1;
+      }
+
+      .overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .animate-appear {
+        opacity: 0;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      input:focus {
+        outline: none;
+      }
+      .component-wrapper,
+      .component-wrapper * {
+        pointer-events: none;
+      }
+
+      .component-wrapper a *,
+      .component-wrapper a,
+      .component-wrapper input,
+      .component-wrapper video,
+      .component-wrapper iframe,
+      .listeners-active,
+      .listeners-active * {
+        pointer-events: auto;
+      }
+
+      .hidden,
+      .hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .smart-layers-pointers,
+      .smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .component-wrapper.not-ready,
+      .component-wrapper.not-ready * {
+        visibility: hidden !important;
+      }
+
+      .listeners-active-click,
+      .listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(255, 255, 255, 1)">
+    <input type="hidden" id="anPageName" name="page" value="home" />
+    <div class="container-center-horizontal">
+      <div class="home screen">
+        <div class="about-C61RwL">
+          <div class="rectangle-xjfc2X"></div>
+          <div class="learn-more-xjfc2X">LEARN MORE</div>
+          <div class="rectangle-2-xjfc2X"></div>
+          <div class="quick-bio-lorem-gula-eget-dolor-xjfc2X">
+            Quick Bio<br /><br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+            dolor.
+          </div>
+          <div class="about-me-xjfc2X">About ME</div>
+          <div class="taylor-james-xjfc2X">Taylor James</div>
+        </div>
+        <div class="travel-C61RwL">
+          <div class="travel-app-icSmZ7 playfairdisplay-normal-white-32px">Travel App</div>
+          <div class="lorem-ipsom-icSmZ7 lato-normal-white-15px">Lorem Ipsom</div>
+          <div class="learn-more-icSmZ7 lato-normal-concrete-12px">LEARN MORE</div>
+          <div class="sectiontravelapp-icSmZ7 lato-medium-red-22px">&lt;section&gt;travelapp</div>
+          <div class="rectangle-19-icSmZ7 border-4px-red"></div>
+          <div class="button-learn-more-icSmZ7 lato-medium-red-22px">&lt;button&gt; Learn more</div>
+          <div class="rectangle-19-rBtUnR border-4px-red"></div>
+          <div class="h2-icSmZ7 lato-medium-red-22px">&lt;H2&gt;</div>
+          <div class="rectangle-19-OAgEhC border-4px-red"></div>
+          <div class="h3-icSmZ7 lato-medium-red-22px">&lt;H3&gt;</div>
+          <div class="p-portfolio-item-icSmZ7 lato-medium-red-22px">&lt;p&gt; portfolio item</div>
+        </div>
+        <div class="life-C61RwL">
+          <div class="gov-redesign-4mYfDE playfairdisplay-normal-white-32px">Gov Redesign</div>
+          <div class="lorem-ipsom-4mYfDE lato-normal-white-15px">Lorem Ipsom</div>
+          <div class="learn-more-4mYfDE lato-normal-concrete-12px">LEARN MORE</div>
+          <div class="sectiongovredesign-4mYfDE lato-medium-red-22px">&lt;section&gt;govredesign</div>
+          <div class="h3-4mYfDE lato-medium-red-22px">&lt;H3&gt;</div>
+          <div class="p-portfolio-item-4mYfDE lato-medium-red-22px">&lt;p&gt; portfolio item</div>
+        </div>
+        <div class="soul-C61RwL">
+          <div class="non-profit-XnPKxa playfairdisplay-normal-white-32px">Non-Profit</div>
+          <div class="lorem-ipsom-XnPKxa lato-normal-white-15px">Lorem Ipsom</div>
+          <div class="learn-more-XnPKxa lato-normal-concrete-12px">LEARN MORE</div>
+          <div class="rectangle-13-XnPKxa border-4px-red"></div>
+          <div class="sectionnonprofit-XnPKxa lato-medium-red-22px">&lt;section&gt;nonprofit</div>
+          <div class="h3-XnPKxa lato-medium-red-22px">&lt;H3&gt;</div>
+          <div class="p-portfolio-item-XnPKxa lato-medium-red-22px">&lt;p&gt; portfolio item</div>
+          <div class="rectangle-21-XnPKxa border-4px-red"></div>
+          <div class="button-learn-more-XnPKxa lato-medium-red-22px">&lt;button&gt; Learn more</div>
+        </div>
+        <img class="ellipse-3-C61RwL" src="img/ellipse-3@2x.svg" />
+        <div class="stories-C61RwL">
+          <div class="rectangle-4-l9YAls"></div>
+          <div class="component-l9YAls">
+            <div class="rectangle-3-MRGrQZ"></div>
+            <div class="x10-april-2020-MRGrQZ lato-normal-abbey-12px">10 APRIL, 2020</div>
+            <div class="lorem-ipsum-dol-gula-eget-dolor-MRGrQZ lato-normal-gray-16px">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+            </div>
+          </div>
+          <div class="component-CYjuiq">
+            <div class="rectangle-3-lRlUJF"></div>
+            <div class="x5-april-2017-i17771775-lRlUJF lato-normal-abbey-12px">5 APRIL, 2020</div>
+            <div class="the-languages-o-words-i17771776-lRlUJF lato-normal-gray-16px">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+            </div>
+          </div>
+          <div class="component-COif9V">
+            <div class="rectangle-3-e5gixx"></div>
+            <div class="x30-march-2017-i17781775-e5gixx lato-normal-abbey-12px">30 MARCH, 2020</div>
+            <div class="lorem-ipsum-dol-dolor-i17781776-e5gixx lato-normal-gray-16px">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+            </div>
+          </div>
+          <div class="wireframes-design-process-l9YAls">Wireframes / Design Process</div>
+        </div>
+        <div class="testimonial-C61RwL">
+          <div class="testimonial-dJ10FO">
+            <img class="ellipse-2-kY5QV8" src="img/ellipse-2@2x.svg" />
+            <div class="this-is-a-testi-in-viverra-quis-kY5QV8">
+              This is a testimonial Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+              Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
+              viverra quis.
+            </div>
+            <div class="sofia-brichet-kY5QV8 lato-normal-abbey-14px">SOFIA BRICHET</div>
+            <div class="some-company-name-kY5QV8 lato-normal-abbey-14px">Some Company Name</div>
+            <img class="image-kY5QV8" src="img/-@2x.svg" />
+            <div class="rectangle-26-kY5QV8 border-4px-red"></div>
+          </div>
+          <div class="testimonial-FAveAx">
+            <img class="ellipse-2-xLZyNP" src="img/ellipse-2@2x.svg" />
+            <div class="one-morning-whe-d-see-i17871783-xLZyNP">
+              One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a
+              horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see.
+            </div>
+            <div class="james-thomas-i17871784-xLZyNP lato-normal-abbey-14px">JAMES THOMAS</div>
+            <div class="some-company-name-i17871785-xLZyNP lato-normal-abbey-14px">Some Company Name</div>
+            <img class="image-xLZyNP" src="img/-@2x.svg" />
+            <div class="rectangle-26-xLZyNP border-4px-red"></div>
+          </div>
+          <div class="what-people-are-about-the-work-dJ10FO">What people are saying about the work</div>
+        </div>
+        <div class="footer-C61RwL">
+          <div class="subscribe-iPe1yZ">
+            <div class="rectangle-5-qPPd6S"></div>
+            <div class="contact-me-qPPd6S">Contact Me</div>
+            <div class="rectangle-6-qPPd6S"></div>
+            <div class="enter-your-email-qPPd6S">Enter your email</div>
+            <div class="rectangle-6-Jv1AAM"></div>
+            <div class="email-qPPd6S lato-normal-abbey-14px">EMAIL</div>
+          </div>
+          <div class="footer-iPe1yZ">
+            <img class="ellipse-3-qJOyZt" src="img/ellipse-3-1@2x.svg" />
+            <img class="ellipse-3-1vvqQt" src="img/ellipse-3-1@2x.svg" />
+            <img class="ellipse-3-trRdlN" src="img/ellipse-3-1@2x.svg" />
+            <img class="ellipse-3-jUkhar" src="img/ellipse-3-1@2x.svg" />
+          </div>
+          <div class="rectangle-22-iPe1yZ border-4px-red"></div>
+          <div class="rectangle-23-iPe1yZ border-4px-red"></div>
+          <div class="rectangle-24-iPe1yZ border-4px-red"></div>
+          <div class="rectangle-25-iPe1yZ border-4px-red"></div>
+          <div class="h1-iPe1yZ lato-medium-red-22px">&lt;H1&gt;</div>
+          <div class="img-social-media-iPe1yZ lato-medium-red-22px">&lt;img&gt; social media</div>
+        </div>
+        <div class="button-email-C61RwL lato-medium-red-22px">&lt;button&gt; email</div>
+        <div class="button-email-entry-C61RwL lato-medium-red-22px">&lt;button&gt; email entry</div>
+        <img class="xheader-copy-C61RwL" src="img/-header-copy@1x.png" />
+        <div class="rectangle-7-C61RwL border-4px-red"></div>
+        <div class="rectangle-8-C61RwL border-4px-red"></div>
+        <div class="rectangle-14-C61RwL border-4px-red"></div>
+        <div class="rectangle-16-C61RwL border-4px-red"></div>
+        <div class="rectangle-17-C61RwL border-4px-red"></div>
+        <div class="rectangle-18-C61RwL border-4px-red"></div>
+        <div class="rectangle-15-C61RwL border-4px-red"></div>
+        <div class="rectangle-10-C61RwL border-4px-red"></div>
+        <div class="rectangle-11-C61RwL border-4px-red"></div>
+        <div class="rectangle-12-C61RwL border-4px-red"></div>
+        <div class="header-C61RwL lato-medium-red-22px">&lt;header&gt;</div>
+        <div class="li-menu-item-C61RwL lato-medium-red-22px">&lt;li&gt; menu<br />item</div>
+        <div class="li-menu-item-VMr6Om lato-medium-red-22px">&lt;li&gt; menu<br />item</div>
+        <div class="li-menu-item-mzXdH9 lato-medium-red-22px">&lt;li&gt; menu<br />item</div>
+        <div class="sectionwork-C61RwL lato-medium-red-22px">&lt;section&gt;work</div>
+        <div class="rectangle-13-C61RwL border-4px-red"></div>
+        <div class="sectionabout-C61RwL lato-medium-red-22px">&lt;section&gt;about</div>
+        <div class="rectangle-21-C61RwL border-4px-red"></div>
+        <div class="rectangle-22-C61RwL border-4px-red"></div>
+        <div class="rectangle-23-C61RwL border-4px-red"></div>
+        <div class="rectangle-26-C61RwL border-4px-red"></div>
+        <div class="rectangle-24-C61RwL border-4px-red"></div>
+        <div class="rectangle-25-C61RwL border-4px-red"></div>
+        <div class="sectionfooter-C61RwL lato-medium-red-22px">&lt;section&gt;footer</div>
+        <div class="sectiontestimonials-C61RwL lato-medium-red-22px">&lt;section&gt;testimonials</div>
+        <div class="h1-C61RwL lato-medium-red-22px">&lt;H1&gt;</div>
+        <div class="h2-C61RwL lato-medium-red-22px">&lt;H2&gt;</div>
+        <div class="button-learn-more-C61RwL lato-medium-red-22px">&lt;button&gt; Learn more</div>
+        <div class="h3-C61RwL lato-medium-red-22px">&lt;H3&gt;</div>
+        <div class="p-quick-bio-C61RwL lato-medium-red-22px">&lt;p&gt; quick bio</div>
+        <div class="imgheadshot-C61RwL lato-medium-red-22px">&lt;img&gt;headshot</div>
+        <div class="rectangle-20-C61RwL border-4px-red"></div>
+        <div class="button-learn-more-VMr6Om lato-medium-red-22px">&lt;button&gt; Learn more</div>
+      </div>
+    </div>
+  </body>
+</html>
